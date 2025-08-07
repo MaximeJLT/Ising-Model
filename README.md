@@ -47,7 +47,7 @@ $$
 \sinh\left(\frac{2}{T_c}\right) = 1 \Rightarrow T_c = 2.2692
 $$
 
-![Insert: Theoretical magnetization curve](TD6/theorie.pdf)
+![Insert: Theoretical magnetization curve](data/theorie.jpg)
 
 ---
 
@@ -92,18 +92,18 @@ $$
 
 Initial state: all spins up.
 
-![Insert: Final spin matrix](TD6/spin.pdf)
+![Insert: Final spin matrix](data/spin.jpg)
 
 Over time, the system evolves through ferromagnetic → diamagnetic → paramagnetic states.
 
 3D view of the spin matrix:
 
-![Insert: 3D spin matrix](TD6/Fig_4.pdf)  
-![Insert: 3D spin matrix](TD6/Fig_6.pdf)
+![Insert: 3D spin matrix](data/Fig_4.jpg)  
+![Insert: 3D spin matrix](data/Fig_6.jpg)
 
 Magnetization vs iteration count:
 
-![Insert: Magnetization over time](TD6/g_comprisq.pdf)
+![Insert: Magnetization over time](data/g_comprisq.jpg)
 
 Mean magnetization over second half: **0.006** → paramagnetic state.
 
@@ -128,20 +128,20 @@ Comparison of material types:
 | Spontaneous $$M$$ | None | None | Yes |
 | Spin behavior | Random | Semi-aligned | Aligned |
 
-![Insert: Susceptibility vs T](TD6/suce.pdf)  
-![Insert: Magnetization vs T](TD6/Fig_3.pdf)
+![Insert: Susceptibility vs T](data/suce.jpg)  
+![Insert: Magnetization vs T](data/Fig_3.jpg)
 
 Below $$T_c$$ (e.g. $$k_BT = 1.5$$):
 
-![Insert: Spin matrix at k_BT = 1.5](spins_kBT_1_5.png)
+![Insert: Spin matrix at k_BT = 1.5](data/spins_kBT_1_5.jpg)
 
 At $$T_c$$:
 
-![Insert: Spin matrix at k_BT = 2.3](spins_kBT_2_3.png)
+![Insert: Spin matrix at k_BT = 2.3](data/spins_kBT_2_3.jpg)
 
 Above $$T_c$$:
 
-![Insert: Spin matrix at k_BT = 3](spins_kBT_3.png)
+![Insert: Spin matrix at k_BT = 3](data/spins_kBT_3.jpg)
 
 ---
 
@@ -151,7 +151,7 @@ At low temperatures, thermal fluctuations are minimal and the system tends to mi
 
 Starting from a random spin configuration:
 
-![Cluster formation GIF](assets/ising_clusters.gif)
+![Cluster formation GIF](data/ising_clusters.gif)
 
 These snapshots illustrate how **spins gradually self-organize into aligned regions (clusters)**.  
 This is known as **phase separation**, and reflects the system’s attempt to minimize the energy associated with domain boundaries.
