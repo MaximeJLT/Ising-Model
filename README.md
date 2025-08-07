@@ -151,10 +151,7 @@ At low temperatures, thermal fluctuations are minimal and the system tends to mi
 
 Starting from a random spin configuration:
 
-![Spin matrix at step 10,000](TD6/ising_k010000.png)  
-![Spin matrix at step 30,000](TD6/ising_k030000.png)  
-![Spin matrix at step 50,000](TD6/ising_k050000.png)  
-![Spin matrix at step 100,000](TD6/ising_k100000.png)
+![Cluster formation GIF](assets/ising_clusters.gif)
 
 These snapshots illustrate how **spins gradually self-organize into aligned regions (clusters)**.  
 This is known as **phase separation**, and reflects the system’s attempt to minimize the energy associated with domain boundaries.
